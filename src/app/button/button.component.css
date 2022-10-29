@@ -1,0 +1,10 @@
+.button-style{
+    padding: 15px;
+    margin: 2px;
+    background-color: #2f353a;
+    color: black;
+    cursor: pointer;
+    border: solid 2px;
+    border-color: black;
+    background-color: #c9e3a6;
+}

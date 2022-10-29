@@ -1,0 +1,27 @@
+.indicator-style{
+    padding: 15px;
+    margin: 10px;
+    background-color: #2f353a;
+    color: white;
+    cursor: pointer;
+    border: solid 2px;
+    border-color: white;
+}
+
+/* .on{
+    background-color: #f15656;
+} */
+
+
+.on {
+    animation-name: piscar;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes piscar {
+    50% {
+        background-color:#f15656;
+    }
+}
